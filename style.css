@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(10, 10, 10);
+  color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+header{
+  width: 95%;
+  max-width: 788px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+  margin-top: 15px;
+}
+h1{
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.container{
+  width: 91%;
+  max-width: 680px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.share-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+.img-container{
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-container img {
+  height: 100%;
+}
+.tiles{
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  margin: 7px;
+  border-radius: 17px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.share-button svg {
+  margin-left: 11px;
+  margin-top: 11px;
+
+}
+.svg-icon{
+  width: 30px;
+  height: 30px;
+ margin-left: 8px;
+}
+a{
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+}
+
+.tile-share-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(52, 52, 52);
+  margin: 8px;
+}
+
+.tile-share-button svg {
+  margin-left: 11px;
+  margin-top: 11px;
+}
+
+.tiles:hover{
+  transform: scale(1.02);
+  transition: cubic-bezier(.07, 1.41 , .82, 1.41) 0.2s;
+}
